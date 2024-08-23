@@ -11,7 +11,7 @@
 - [X] Disable Bucket Fill & Emty Events
 - [X] Disable EntityDamage Event
 - [X] Disable FoodChanche Event
-- [ ] Disable DoorInteract Event
+- [X] Disable DoorInteract Event
 
 
 ## Commands
@@ -37,6 +37,7 @@
 - [X] Hotbar ItemSwitchSound
 - [X] Actionbar Display Netzwerk Lobby Version
 - [ ] Lobby instand respawn
+- [ ] Join on Spawn
 
 ## Configs
 - [x] create messages.yml

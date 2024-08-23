@@ -38,6 +38,7 @@ public class MessagesFile {
 
         messagescfg.addDefault("Messages.SetSpawnUse", "§7Bnutze bitte §4/setspawn§7!");
         messagescfg.addDefault("Messages.SetSpawnSet", "§7Der Spawn wurde §aErfolgriche §7gesetzt!");
+        messagescfg.addDefault("Messages.NoSpawm", "§7Der Spawn wurde §4Nicht §7gesetzt!");
 
         save();
     }
