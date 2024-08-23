@@ -1,6 +1,5 @@
 # MineHome Lobby
 
-Minecraft minehome.eu Lobby Plugin for Server Version 1.12.2
 
 
 ## Protection
@@ -12,8 +11,6 @@ Minecraft minehome.eu Lobby Plugin for Server Version 1.12.2
 - [X] Disable Bucket Fill & Emty Events
 - [X] Disable EntityDamage Event
 - [X] Disable FoodChanche Event
-- [ ] Disable Door interact
-
 
 ## Commands
 
