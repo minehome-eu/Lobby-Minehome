@@ -22,11 +22,9 @@ public final class Lobby extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
         createConfig();
         registerEvents();
         registerCommands();
-
     }
 
     @Override
@@ -35,12 +33,9 @@ public final class Lobby extends JavaPlugin {
     }
 
     private void registerEvents() {
-
         Bukkit.getPluginManager().registerEvents(new JoinEvent(), this);
         Bukkit.getPluginManager().registerEvents(new QuitEvent(), this);
-        Bukkit.getPluginManager().registerEvents(new BreakEvent(),this);
-        Bukkit.getPluginManager().registerEvents(new PlaceEvent(),this);
-        Bukkit.getPluginManager().registerEvents(new InteractEvent(),this);
+        Bukkit.getPluginManager().registerEvents(new ProtectEvent(),this);
         Bukkit.getPluginManager().registerEvents(new PlayerDamageEvent(), this);
         Bukkit.getPluginManager().registerEvents(new InventarInteractEvent(), this);
         Bukkit.getPluginManager().registerEvents(new LobbyInventoryEvent(), this);
@@ -64,7 +59,6 @@ public final class Lobby extends JavaPlugin {
 
         locationFile = new LocationFile();
         locationFile.createFile();
-
     }
 
     public MessagesFile getMessagesFile() {return messagesFile;}

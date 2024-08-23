@@ -1,7 +1,6 @@
 package eu.minehome.lobby.listener;
 
 import eu.minehome.lobby.Lobby;
-import org.apache.commons.lang.ObjectUtils;
 import org.bukkit.Sound;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
@@ -25,9 +24,7 @@ public class InventarInteractEvent implements Listener {
             if (configcfg.getBoolean("Sounds.ItemSwitchSound")){
                 e.getPlayer().playSound(e.getPlayer().getLocation(), Sound.ENTITY_ITEM_PICKUP, 5, 5);
             }
-
         }
-
     }
 
     @EventHandler
@@ -50,5 +47,4 @@ public class InventarInteractEvent implements Listener {
             e.setCancelled(true);
         }
     }
-
 }

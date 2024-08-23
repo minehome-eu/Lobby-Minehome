@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="MineHome-Lobby">
-    <output-path>$USER_HOME$/Desktop/server/plugins</output-path>
+    <output-path>$USER_HOME$/Desktop/paper server/plugins</output-path>
     <root id="archive" name="MineHome-Lobby.jar">
       <element id="module-output" name="Lobby" />
     </root>
