@@ -1,0 +1,9 @@
+name: Lobby
+version: '${project.version}'
+author: CodeByJeeens
+main: eu.minehome.lobby.Lobby
+
+commands:
+  build:
+  setspawn:
+

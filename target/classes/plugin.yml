@@ -1,0 +1,9 @@
+name: Lobby
+version: '1.0.0'
+author: CodeByJeeens
+main: eu.minehome.lobby.Lobby
+
+commands:
+  build:
+  setspawn:
+
