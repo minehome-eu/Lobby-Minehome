@@ -11,6 +11,7 @@
 - [X] Disable Bucket Fill & Emty Events
 - [X] Disable EntityDamage Event
 - [X] Disable FoodChanche Event
+- [ ] Disable DoorInteract Event
 
 ## Commands
 
